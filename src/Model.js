@@ -296,15 +296,15 @@ export default class Model {
             }
         })
 
-        forOwn(model.relationships(), (relatedModel, relationshipName) => {
-            if (isUndefined(model[relationshipName])) {
-                model[relationshipName] = {
-                    fetch: () => {
-                        return model.fetchRelation(relationshipName)
-                    }
-                }
-            }
-        })
+        // forOwn(model.relationships(), (relatedModel, relationshipName) => {
+        //     if (isUndefined(model[relationshipName])) {
+        //         model[relationshipName] = {
+        //             fetch: () => {
+        //                 return model.fetchRelation(relationshipName)
+        //             }
+        //         }
+        //     }
+        // })
 
         forOwn(model.computed(), (computation, key) => {
             model[key] = computation(model)
