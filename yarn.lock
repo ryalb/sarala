@@ -3973,9 +3973,9 @@ sane@^2.0.0:
   optionalDependencies:
     fsevents "^1.2.3"
 
-sarala-json-api-data-formatter@ryalb/sarala-json-api-data-formatter.git:
-  version "2.0.1"
-  resolved "https://codeload.github.com/ryalb/sarala-json-api-data-formatter/tar.gz/ebc61af000be6d1b8e5112262a3a864d21a4f16d"
+sarala-json-api-data-formatter@ryalb/sarala-json-api-data-formatter:
+  version "2.0.2"
+  resolved "https://codeload.github.com/ryalb/sarala-json-api-data-formatter/tar.gz/80f139f6e9373ebc70829660b92f3d7af2e67769"
 
 sax@^1.2.4:
   version "1.2.4"

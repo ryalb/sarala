@@ -39,7 +39,7 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "moment": "^2.23.0",
-    "sarala-json-api-data-formatter": "ryalb/sarala-json-api-data-formatter.git"
+    "sarala-json-api-data-formatter": "ryalb/sarala-json-api-data-formatter"
   },
   "devDependencies": {
     "axios": "^0.18.0",
